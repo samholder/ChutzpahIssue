@@ -1,0 +1,13 @@
+﻿{
+    "Compile": {
+        "Mode": "External",
+        "Extensions": [ ".ts" ],
+        "ExtensionsWithNoOutput": [ ".d.ts" ]
+    },
+    "Tests": [
+        { "Include": "*/*.ts","Exclude": "*/*.d.ts" }
+    ],
+    "References": [
+        {"Include": "../../ChutzpaWeb/*/*.ts", "Exclude": "../../ChutzpaWeb/*/*.d.ts" }
+    ]
+}
